@@ -1,0 +1,37 @@
+[
+  {
+    "issue_type": "SIMULTANEOUS_LOCATION",
+    "entity_name": "ReusableAsset",
+    "record_id": "ASSET-0000001",
+    "expected_decision": "Flag conflicting active locations for manual review",
+    "rule": "Injected exception for validation; not a naturally inferred label."
+  },
+  {
+    "issue_type": "RETURN_BEFORE_DISPATCH",
+    "entity_name": "CustodyEvent",
+    "record_id": "CUST-ASSET-0000001-900002",
+    "expected_decision": "Reject or quarantine return event dated before dispatch",
+    "rule": "Injected exception for validation; not a naturally inferred label."
+  },
+  {
+    "issue_type": "DUPLICATE_REFUND",
+    "entity_name": "DepositLedger",
+    "record_id": "LED-ANOMALY-REFUND-2",
+    "expected_decision": "Flag duplicate refund; reconcile by asset and deposit",
+    "rule": "Injected exception for validation; not a naturally inferred label."
+  },
+  {
+    "issue_type": "REPAIR_WITHOUT_INSPECTION",
+    "entity_name": "Repair",
+    "record_id": "REP-2026-900001",
+    "expected_decision": "Do not accept closure without a valid inspection",
+    "rule": "Injected exception for validation; not a naturally inferred label."
+  },
+  {
+    "issue_type": "MISSING_ACTOR",
+    "entity_name": "CustodyEvent",
+    "record_id": "CUST-ASSET-0000001-900003",
+    "expected_decision": "Require actor; flag event for correction",
+    "rule": "Injected exception for validation; not a naturally inferred label."
+  }
+]

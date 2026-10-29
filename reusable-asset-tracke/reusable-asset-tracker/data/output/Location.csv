@@ -1,0 +1,7 @@
+location_id,name,location_type,country
+LOC-001,Central Depot,Warehouse,IN
+LOC-002,Supplier Hub,Supplier,IN
+LOC-003,Retail DC,Warehouse,IN
+LOC-004,Repair Center,Repair Center,IN
+LOC-005,Transit Yard,Transit,IN
+LOC-006,Return Dock,Warehouse,IN

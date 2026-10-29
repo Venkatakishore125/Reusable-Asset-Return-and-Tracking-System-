@@ -1,0 +1,4 @@
+asset_type_id,name,deposit_amount,return_window_days,repairable
+TYPE-001,Pallet,25.0,14,True
+TYPE-002,Reusable Crate,12.0,10,True
+TYPE-003,Transport Cage,80.0,21,True

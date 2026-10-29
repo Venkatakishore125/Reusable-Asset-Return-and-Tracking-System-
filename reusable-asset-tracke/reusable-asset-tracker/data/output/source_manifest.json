@@ -1,0 +1,56 @@
+{
+  "seed": 20261022,
+  "scale": {
+    "assets": 20000,
+    "shipments": 10000,
+    "custody_events": 100000
+  },
+  "generated_at": "fixed-by-design: 2026-10-27",
+  "tables": {
+    "AssetType": {
+      "rows": 3,
+      "sha256": "64f981d692f8d08c0828fb2549f94c2b30dc062ce0976bb18104aa1a2b4a1eb6"
+    },
+    "Owner": {
+      "rows": 3,
+      "sha256": "73e59062e511c4b9407d3cc5433b316532a73aa3b9b1ac531ac93340158951db"
+    },
+    "Location": {
+      "rows": 6,
+      "sha256": "8e4e2ffe84c1c7665a5782127bd0c112d9cf22270b3b19cad884c4ee4699a50d"
+    },
+    "ReusableAsset": {
+      "rows": 20000,
+      "sha256": "fcb9db5670c03b57bdbfcb73450ef2593a966f6b5b6f054c18bf3c15b25ca55c"
+    },
+    "Shipment": {
+      "rows": 10000,
+      "sha256": "3772bc65bef473a280dfcb5d1d23e671b91610f0bcc9089103f091f3466fd19c"
+    },
+    "CustodyEvent": {
+      "rows": 100000,
+      "sha256": "ab8059aa994d75e5bb08de164a3b95ae8749621d725164be3b625d2d72e70b78"
+    },
+    "ReturnAuthorization": {
+      "rows": 10000,
+      "sha256": "979f0af1afb0d0f9ee1674f11179fbe28c539e1fdab3d7bf09549ead1233c3cb"
+    },
+    "Inspection": {
+      "rows": 7168,
+      "sha256": "01429fc6eb7c3e35da6b26482037e9834a56eb33367f75cbd3546348b62e7b9b"
+    },
+    "Repair": {
+      "rows": 890,
+      "sha256": "dfd087aeb635a9b1440abfc37a38b460d0cdc89fb5037193557fce4470ea245a"
+    },
+    "DepositLedger": {
+      "rows": 16280,
+      "sha256": "08645d89abd6951d3c316a27450e5fcd19e4d7453a02da3a98447cc5e7d08424"
+    }
+  },
+  "snapshot": {
+    "rows": 20000,
+    "sha256": "698cfbce84b82d193bd477ca04c28bcd32d4a6732c89ddb15fa35ec0def4d121"
+  },
+  "ground_truth_rows": 5
+}
